@@ -1,0 +1,6 @@
+<div class="card">
+    <h2>{{cardData.name}}</h2>
+    <p><span class="label">Age: </span> <span class="value">{{cardData.age}} {{cardData.ageUnit}}</span></p>
+    <p><span class="label">Student: </span> <span class="value">{{cardData.isStudent ? 'Yes' : 'No'}}</span></p>
+    <p *ngIf="cardData.school"><span class="label">School: </span> <span class="value">{{cardData.school}}</span></p>
+</div>

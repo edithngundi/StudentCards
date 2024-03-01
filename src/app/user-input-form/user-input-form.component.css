@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  form {
+    max-width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+
+  form fieldset {
+    margin-bottom: 10px;
+    border: none;
+    padding: 0;
+  }
+
+  span {
+    color: red;
+    font-size: 10px;
+    margin-left: 180px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  form input[type="text"],
+  form input[type="number"],
+  form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .radio-group {
+    margin-bottom: 10px;
+  }
+  
+  .radio-group input[type="radio"] {
+    margin-right: 5px;
+    margin-bottom: 20px;
+  }
+  
+  form button {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: rgb(128, 0, 128);
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  form button:hover {
+    background-color: rgb(75, 1, 75);
+  }  
